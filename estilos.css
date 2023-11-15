@@ -1,0 +1,95 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+  display: flex;
+}
+section{
+  background-color: rgb(196, 208, 216);
+  border-radius: 5px;
+  margin: 15px 15px;
+  
+  
+}
+.de_mu, .se_do, .solicitante, .modificar{
+  display: flex;
+  
+}
+.primera_seccion{
+  margin: 15px;
+}
+.se_do{
+  margin: 15px;
+}
+.segunda_seccion{
+  display: flex;
+}
+input[type="checkbox"]{
+  padding: 10px;
+ 
+}
+
+.solicitante, .modificar, .tipo_solicitud, .sub_seccion{
+  
+  padding: 15px;
+  
+  }
+
+
+}
+label{
+  
+  margin-right: 10px;
+  min-width: 100px;
+}
+input {
+  
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 7px;
+  border: 0;
+  background-color: rgb(218, 241, 255);
+}
+input [type="text"]{
+  background-color: lightskyblue;
+}
+h2{
+  margin: 10px 10px;  
+}
+
+
+table {
+  width: 100%;
+  border-collapse: separate; /* Utiliza "separate" para permitir el espacio entre las celdas */
+  border-spacing: 10px; /* Ajusta el valor según sea necesario */
+  margin-top: 20px;
+}
+
+th, td {
+  border: 0;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: rgb(196, 208, 216);
+}
+td{
+  background-color: rgb(218, 241, 255);
+}
+tr:nth-child(2) td:nth-child(n+7),
+tr:nth-child(3) td:nth-child(n+7),
+tr:nth-child(4) td:nth-child(n+7),
+tr:nth-child(5) td:nth-child(n+7),
+tr:nth-child(6) td:nth-child(n+7) {
+  padding: 10px 10px;
+  /* Ajusta el valor según sea necesario */
+}
+
